@@ -1,20 +1,25 @@
 <nav class="navbar navbar-static-top navbar-inverse" ng-controller="NavbarCtrl">
-  <div class="container-fluid">
+  <div class="navbarfill">
     <div class="navbar-header">
-      <a class="navbar-brand" href="https://github.com/Swiip/generator-gulp-angular">
-        <span class="glyphicon glyphicon-home"></span> Gulp Angular
-      </a>
+      <img src="assets/images/capecrossinglogo.png" class="img-responsive">
+      <button type="button" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
+        <span class="sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
     </div>
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+    <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'" ng-click="navCollapsed=true" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a ng-href="#">Home</a></li>
-        <li><a ng-href="#">About</a></li>
-        <li><a ng-href="#">Contact</a></li>
+        <li class="active"><a ng-href="#">HOME</a></li>
+        <li><a ng-href="#">LIFESTYLE</a></li>
+        <li><a ng-href="#">LOCATION & ATTRACTIONS</a></li>
+        <li><a ng-href="#">RESIDENCES & PRICING</a></li>
+        <li><a ng-href="#">RENTAL PROGRAM</a></li>
+        <li><a ng-href="#">CONTACT</a></li>
       </ul>
-
       <ul class="nav navbar-nav navbar-right">
-        <li>Current date: {{ date | date:'yyyy-MM-dd' }}</li>
       </ul>
     </div>
   </div>
