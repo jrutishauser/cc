@@ -1,4 +1,24 @@
-.navbar-header{
+p, span , a {
+  font-family: lato, sans-serif;
+}
+.navbar-header {
+  display: inline;
+    @media(max-width: 1050px){
+      width: 350px;
+    }
+    @media(max-width: 1024px){
+      width: 300px;
+    }
+    @media(max-width: 500px){
+      width: 80%;
+    }
+  img {
+    width: 100%;
+  }
+}
+.navbar-nav {
+  display: inline;
+  padding-right: 2em;
 }
 .navbarfill {
   margin: 0 auto;
@@ -11,14 +31,13 @@
   background-color: black;
   margin: 0 auto;
   .nav {
-    a {
-      width: 8em;
-      border: 1px solid red;
-    }
     a:hover{
       color: blue !important;
     }
   }
+}
+h1 {
+  margin-top: 5em;
 }
 // injector
 // endinjector

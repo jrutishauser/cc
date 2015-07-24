@@ -1,17 +1,23 @@
 <nav class="navbar navbar-static-top navbar-inverse" ng-controller="NavbarCtrl">
   <div class="navbarfill">
     <div class="navbar-header">
-      <img src="assets/images/capecrossinglogo.png" class="img-responsive">
+      <img src="assets/images/capecrossinglogo.png">
       <button type="button" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
         <span class="sr-only">Toggle Navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-
     </div>
     <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'" ng-click="navCollapsed=true" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a ng-href="#">HOME</a></li>
+        <li><a ng-href="#">LIFESTYLE</a></li>
+        <li><a ng-href="#">LOCATION &<br />ATTRACTIONS</a></li>
+        <li><a ng-href="#">RESIDENCES<br />& PRICING</a></li>
+        <li><a ng-href="#">RENTAL<br>PROGRAM</a></li>
+        <li><a ng-href="#">CONTACT</a></li>
+      <ul class="dropdown-menu">
         <li class="active"><a ng-href="#">HOME</a></li>
         <li><a ng-href="#">LIFESTYLE</a></li>
         <li><a ng-href="#">LOCATION & ATTRACTIONS</a></li>
@@ -19,7 +25,6 @@
         <li><a ng-href="#">RENTAL PROGRAM</a></li>
         <li><a ng-href="#">CONTACT</a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
       </ul>
     </div>
   </div>
