@@ -30,6 +30,7 @@ p, span , a {
   padding-bottom: 1em;
   background-color: black;
   margin: 0 auto;
+  box-shadow: 5px 5px 5px black;
   .nav {
     a:hover{
       color: blue !important;
@@ -38,6 +39,27 @@ p, span , a {
 }
 h1 {
   margin-top: 5em;
+}
+.carousel .item {
+  width: 100%; /*slider width*/
+  max-height: 600px; /*slider height*/
+}
+.carousel .item img {
+  width: 100%; /*img width*/
+}
+/*add some makeup*/
+.carousel-control {
+  background: none;
+  border: none;
+}
+.carousel-indicators {
+  bottom: 5vw;
+  @media (max-width: 937px) {
+    display: none;
+  }
+}
+.carouselcontainer {
+  position: relative;
 }
 // injector
 // endinjector
