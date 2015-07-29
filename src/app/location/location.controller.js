@@ -1,6 +1,6 @@
 'use strict';
 
 angular.module('capecrossing')
-  .controller('MainCtrl', function ($scope) {
+  .controller('LocationCtrl', function ($scope) {
     console.log('home');
   });
