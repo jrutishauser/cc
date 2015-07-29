@@ -2,6 +2,7 @@
 
 angular.module('capecrossing')
   .controller('MainCtrl', function ($scope) {
+		  console.log('why arent you here')
     $scope.myInterval = 3500;
     $scope.slides = [
       {

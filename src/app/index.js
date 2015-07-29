@@ -16,22 +16,22 @@ angular.module('capecrossing', ['ngAnimate', 'ngTouch', 'ngSanitize', 'ngResourc
       .state('location', {
         url: '/location',
         templateUrl: 'app/location/location.html',
-        controller: 'locationCtrl'
+        controller: 'LocationCtrl'
       })
       .state('residences', {
         url: '/residences',
         templateUrl: 'app/residences/residences.html',
-        controller: 'residencesCtrl'
+        controller: 'ResidencesCtrl'
       })
       .state('rental', {
         url: '/rental',
         templateUrl: 'app/rental/rental.html',
-        controller: 'rentalCtrl'
+        controller: 'RentalCtrl'
       })
       .state('contact', {
         url: '/contact',
         templateUrl: 'app/contact/contact.html',
-        controller: 'contactCtrl'
+        controller: 'ContactCtrl'
       })
     ;//end
     $urlRouterProvider.otherwise('/');
