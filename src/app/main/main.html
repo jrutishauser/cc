@@ -1,14 +1,29 @@
 <div class="container">
-  <h1>HOME(main) PAGE --- need top margin ^ fixed nav/head</h1>
-  <div class="carouselcontainer">
+  <div class="carouselcontainer carousel-fade">
     <carousel interval="myInterval">
       <slide ng-repeat="slide in slides" active="slide.active">
         <img ng-src="{{slide.image}}">
         <div class="carousel-caption">
-			<p>what the heck</p>
           <!--<h4>Slide {{$index+1}}</h4>-->
         </div>
       </slide>
     </carousel>
     </div><!--carousel container-->
+	<h2 class='groundbroken'>BROKE THAT GROUND</h2>
+	<section class='row'>
+	<img src='assets/images/ccwest_view.jpg' class='col-md-10 col-md-offset-1' alt='view from above'/>
+	</section>
+	<section class='row'>
+		<img src='assets/images/girl_sunglasses.jpg' alt='Relax on the water' class='col-md-3 col-md-offset-1' />
+		<section class='col-md-7'>
+				<h3>The ultimate experience of waterfront resort-living in Merritt Island is to be part of it. Take ownership of this fun-loving lifestyle and receive a return on investment.</h3>	
+				<p>
+				Resort and waterfront living become one in the community of Cape Crossing, an exciting new development on Merritt Island designed for relaxation and a multitude of <a ui-sref='lifestyle'>outdoor activities.</a>
+				</p>
+		</section>
+	</section>
+
+
+
+
 </div>

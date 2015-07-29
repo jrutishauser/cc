@@ -1,6 +1,14 @@
 p, span , a {
   font-family: lato, sans-serif;
 }
+h1, h2, h3, h4 {
+	color: #4E87AC;
+  	font-family: lato, sans-serif;
+}
+.container {
+	width: 100%;
+	padding: 0;
+}
 .navbar-header {
   display: inline;
     @media(max-width: 1050px){
@@ -37,12 +45,9 @@ p, span , a {
     }
   }
 }
-h1 {
-  margin-top: 5em;
-}
 .carousel .item {
   width: 100%; /*slider width*/
-  max-height: 600px; /*slider height*/
+  max-height: 700px; /*slider height*/
 }
 .carousel .item img {
   width: 100%; /*img width*/
@@ -51,15 +56,48 @@ h1 {
 .carousel-control {
   background: none;
   border: none;
+  cursor: pointer;
 }
 .carousel-indicators {
-  bottom: 5vw;
+  bottom: 0.5em;
   @media (max-width: 937px) {
     display: none;
   }
 }
 .carouselcontainer {
   position: relative;
+  margin-top: 90px;
+  width: 100%;
 }
+.carousel-fade .carousel-inner .item {
+  opacity: 0.7;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0.7;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.groundbroken {
+	font-size: 3em;
+	text-align: center;
+}
+
+
+
 // injector
 // endinjector
