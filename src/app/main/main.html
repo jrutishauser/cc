@@ -1,14 +1,47 @@
 <div class="container">
-  <h1>HOME(main) PAGE --- need top margin ^ fixed nav/head</h1>
-  <div class="carouselcontainer">
+  <div class="carouselcontainer carousel-fade">
     <carousel interval="myInterval">
       <slide ng-repeat="slide in slides" active="slide.active">
         <img ng-src="{{slide.image}}">
         <div class="carousel-caption">
-			<p>what the heck</p>
           <!--<h4>Slide {{$index+1}}</h4>-->
         </div>
       </slide>
     </carousel>
     </div><!--carousel container-->
+	<h2 class='groundbroken'>BROKE THAT GROUND</h2>
+	<section class='row onthewaterfront'>
+	<img src='assets/images/ccwest_view.jpg' class='col-md-10 col-md-offset-1' alt='view from above'/>
+	<p>ON THE WATERFRONT</p>
+	</section>
+	<section class='row'>
+		<img src='assets/images/girl_sunglasses.jpg' alt='Relax on the water' class='col-md-3 col-md-offset-1 hidden-xs hidden-sm' />
+		<section class='col-md-7'>
+				<h3 class='bodyh3'>The ultimate experience of waterfront resort-living in Merritt Island is to be part of it. Take ownership of this fun-loving lifestyle and receive a return on investment.</h3>	
+				<p>
+				Resort and waterfront living become one in the community of Cape Crossing, an exciting new development on Merritt Island designed for relaxation and a multitude of <a ui-sref='lifestyle'>outdoor activities.</a>
+				</p>
+				<p>
+				This is the perfect home away from home — as a winter retreat, or family vacation any time. Owners taking advantage of our <a ui-sref='rental'>rental program</a>, enjoy income from nightly and weekly rentals. We take care of everything from marketing and management to housekeeping and maintenance. <a ui-sref='contact'>Contact us</a> to learn more. . .
+				</p>
+				<h4>
+						So plan your escape to old-style-Florida-living — for individuals, couples and families, where fun is our main priority.
+				</h4>
+				<p>
+				This exciting new resort development is <a ui-sref='location'>located</a> on the site of the historic former home of The Tingley RV Park and Marina, a Merritt Island landmark for 50 years. Patrons could get “the best hamburger in town”, and neighbors bumped elbows at Friday night fish frys.
+				</p>
+				<p>
+Just as the Tingley’s family inspired patrons, we want to carry on the tradition of serving up delicious food in our restaurant and bar, where families and friends can share good times and create new memories that harken back to simpler days on the island.
+				</p>
+				<p>
+				We aim to create beautiful public spaces within the community that elevate the experience of a <a ui-sref='residences'>waterfront living</a> vacation to a thrilling new level, bringing an “old-style Florida Keys” relaxation to your own back yard.
+				</p>
+		</section>
+	</section>
+	<section class='row imagerow'>
+		<img src='assets/images/cc_attraction_mapsmall.jpg' alt='location and attractions' class='col-md-2 col-md-offset-2'>
+		<img src='assets/images/flipflops.jpg' alt='lifestyle' class='col-md-2'>
+		<img src='assets/images/3unit_townhome_small.jpg' alt='residences and pricing' class='col-md-2'>
+		<img src='assets/images/heart_merritt.jpg' alt='rental program' class='col-md-2'>
+	</section>
 </div>
