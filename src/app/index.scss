@@ -15,14 +15,24 @@ p, span , a {
   img {
     width: 100%;
   }
-}
+} 
 .navbar-nav {
   display: inline;
   padding-right: 2em;
+  @media(max-width: 960px){
+    font-size: 0.8em;
+  }
+  @media(max-width: 832px){
+    font-size: 0.66em;
+  }
+  // @media(max-width: 768px){
+  //   font-size: 0.66em;
+  // }
+  @media(max-width: 767px){
+    font-size: 1.2em;
+  }
 }
-.navbarfill {
-  margin: 0 auto;
-}
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -30,7 +40,28 @@ p, span , a {
   padding-bottom: 1em;
   background-color: black;
   margin: 0 auto;
-  box-shadow: 5px 5px 5px black;
+  .navbarfill {
+    margin: 0 auto;
+    .navbar-header {
+      display: inline;
+        @media(max-width: 1050px){
+          width: 350px;
+        }
+        @media(max-width: 1024px){
+          width: 300px;
+        }
+        @media(max-width: 500px){
+          width: 80%;
+        }
+
+      img {
+        width: 100%;
+        @media(max-width: 767px){
+          max-width: 78%;
+        }
+      }
+    }
+  }
   .nav {
     a:hover{
       color: blue !important;
