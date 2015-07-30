@@ -1,9 +1,12 @@
 p, span , a {
   font-family: lato, sans-serif;
 }
-h1, h2, h3, h4 {
+h1, h2, h3 {
 	color: #4E87AC;
   	font-family: lato, sans-serif;
+}
+a {
+	color: #4E87AC;
 }
 .container {
 	width: 100%;
@@ -96,8 +99,42 @@ h1, h2, h3, h4 {
 	font-size: 3em;
 	text-align: center;
 }
+.bodyh3 {
+	font-size: 2em;
+}
+.onthewaterfront {
+	position: relative;
+	overflow: hidden;
+	p {
+		position: absolute;
+    	@media(max-width: 790px){
+			bottom: -4vw;
+    	}
+    	@media(max-width: 550px){
+			bottom: -4.7vw;
+    	}
+		bottom: -3.5vw;
+		color: white;
+		font-size: 7vw;
+		left: 0;
+		right: 0;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+	}
+}
+.imagerow {
+	margin-top: 4em;
+}
+
+//'assets/images/cc_attraction_mapsmall.jpg'
+//'assets/images/flipflops.jpg'
+//'assets/images/3unit_townhome_small.jpg'
+//'assets/images/heart_merritt.jpg'
 
 
 
-// injector
-// endinjector
+
+
+//injector
+//endinjector
