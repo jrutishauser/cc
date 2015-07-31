@@ -1,0 +1,256 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.9.1
+3 info using node@v0.12.3
+4 verbose readDependencies loading dependencies from /Users/imnothardcore/projects/capecrossing/package.json
+5 warn package.json capecrossing@0.0.0 No description
+6 warn package.json capecrossing@0.0.0 No repository field.
+7 warn package.json capecrossing@0.0.0 No README data
+8 verbose install where, deps [ '/Users/imnothardcore/projects/capecrossing',
+8 verbose install   [ 'gulp',
+8 verbose install     'gulp-autoprefixer',
+8 verbose install     'gulp-angular-templatecache',
+8 verbose install     'del',
+8 verbose install     'gulp-consolidate',
+8 verbose install     'gulp-csso',
+8 verbose install     'gulp-filter',
+8 verbose install     'gulp-flatten',
+8 verbose install     'gulp-jshint',
+8 verbose install     'gulp-load-plugins',
+8 verbose install     'gulp-size',
+8 verbose install     'gulp-uglify',
+8 verbose install     'gulp-useref',
+8 verbose install     'gulp-ng-annotate',
+8 verbose install     'gulp-replace',
+8 verbose install     'gulp-rename',
+8 verbose install     'gulp-rev',
+8 verbose install     'gulp-rev-replace',
+8 verbose install     'gulp-minify-html',
+8 verbose install     'gulp-inject',
+8 verbose install     'gulp-protractor',
+8 verbose install     'gulp-karma',
+8 verbose install     'gulp-sass',
+8 verbose install     'gulp-angular-filesort',
+8 verbose install     'main-bower-files',
+8 verbose install     'jshint-stylish',
+8 verbose install     'wiredep',
+8 verbose install     'karma-jasmine',
+8 verbose install     'karma-phantomjs-launcher',
+8 verbose install     'require-dir',
+8 verbose install     'browser-sync',
+8 verbose install     'http-proxy',
+8 verbose install     'chalk',
+8 verbose install     'protractor',
+8 verbose install     'uglify-save-license' ] ]
+9 verbose install where, peers [ '/Users/imnothardcore/projects/capecrossing', [] ]
+10 verbose installManyTop reading for lifecycle /Users/imnothardcore/projects/capecrossing/package.json
+11 info preinstall capecrossing@0.0.0
+12 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/browser-sync/package.json
+13 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/chalk/package.json
+14 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/del/package.json
+15 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp/package.json
+16 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-angular-filesort/package.json
+17 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-angular-templatecache/package.json
+18 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-autoprefixer/package.json
+19 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-consolidate/package.json
+20 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-csso/package.json
+21 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-filter/package.json
+22 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-flatten/package.json
+23 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-inject/package.json
+24 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-jshint/package.json
+25 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-karma/package.json
+26 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-load-plugins/package.json
+27 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-minify-html/package.json
+28 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-ng-annotate/package.json
+29 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-protractor/package.json
+30 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-rename/package.json
+31 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-replace/package.json
+32 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-rev/package.json
+33 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-rev-replace/package.json
+34 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-sass/package.json
+35 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-size/package.json
+36 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-uglify/package.json
+37 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-useref/package.json
+38 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/http-proxy/package.json
+39 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/jasmine-core/package.json
+40 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/jshint-stylish/package.json
+41 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/karma/package.json
+42 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/karma-jasmine/package.json
+43 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/karma-phantomjs-launcher/package.json
+44 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/main-bower-files/package.json
+45 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/protractor/package.json
+46 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/require-dir/package.json
+47 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/uglify-save-license/package.json
+48 verbose installManyTop reading scoped package data from /Users/imnothardcore/projects/capecrossing/node_modules/wiredep/package.json
+49 verbose readDependencies loading dependencies from /Users/imnothardcore/projects/capecrossing/package.json
+50 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/browser-sync/package.json
+51 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/chalk/package.json
+52 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/del/package.json
+53 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp/package.json
+54 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-angular-filesort/package.json
+55 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-angular-templatecache/package.json
+56 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-autoprefixer/package.json
+57 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-consolidate/package.json
+58 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-csso/package.json
+59 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-filter/package.json
+60 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-flatten/package.json
+61 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-inject/package.json
+62 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-jshint/package.json
+63 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-karma/package.json
+64 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-load-plugins/package.json
+65 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-minify-html/package.json
+66 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-ng-annotate/package.json
+67 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-protractor/package.json
+68 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-rename/package.json
+69 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-replace/package.json
+70 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-rev/package.json
+71 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-rev-replace/package.json
+72 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-sass/package.json
+73 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-size/package.json
+74 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-uglify/package.json
+75 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/gulp-useref/package.json
+76 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/http-proxy/package.json
+77 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/jasmine-core/package.json
+78 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/jshint-stylish/package.json
+79 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/karma/package.json
+80 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/karma-jasmine/package.json
+81 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/karma-phantomjs-launcher/package.json
+82 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/main-bower-files/package.json
+83 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/protractor/package.json
+84 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/require-dir/package.json
+85 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/uglify-save-license/package.json
+86 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/wiredep/package.json
+87 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/.bin/browser-sync/package.json
+88 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/.bin/gulp/package.json
+89 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/.bin/karma/package.json
+90 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/.bin/protractor/package.json
+91 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/.bin/webdriver-manager/package.json
+92 verbose targetResolver reading package data from /Users/imnothardcore/projects/capecrossing/node_modules/.bin/wiredep/package.json
+93 verbose already installed skipping gulp-uglify@~1.0.1 /Users/imnothardcore/projects/capecrossing
+94 verbose already installed skipping gulp-useref@~1.0.2 /Users/imnothardcore/projects/capecrossing
+95 silly cache add args [ 'gulp-ng-annotate@~1.0.2', null ]
+96 verbose cache add spec gulp-ng-annotate@~1.0.2
+97 silly cache add parsed spec { raw: 'gulp-ng-annotate@~1.0.2',
+97 silly cache add   scope: null,
+97 silly cache add   name: 'gulp-ng-annotate',
+97 silly cache add   rawSpec: '~1.0.2',
+97 silly cache add   spec: '>=1.0.2 <1.1.0',
+97 silly cache add   type: 'range' }
+98 silly addNamed gulp-ng-annotate@>=1.0.2 <1.1.0
+99 verbose addNamed ">=1.0.2 <1.1.0" is a valid semver range for gulp-ng-annotate
+100 silly addNameRange { name: 'gulp-ng-annotate',
+100 silly addNameRange   range: '>=1.0.2 <1.1.0',
+100 silly addNameRange   hasData: false }
+101 silly mapToRegistry name gulp-ng-annotate
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry https://registry.npmjs.org/
+104 silly mapToRegistry uri https://registry.npmjs.org/gulp-ng-annotate
+105 verbose addNameRange registry:https://registry.npmjs.org/gulp-ng-annotate not in flight; fetching
+106 verbose already installed skipping gulp-replace@~0.5.0 /Users/imnothardcore/projects/capecrossing
+107 verbose already installed skipping gulp-rename@~1.2.0 /Users/imnothardcore/projects/capecrossing
+108 verbose already installed skipping gulp-rev@~2.0.1 /Users/imnothardcore/projects/capecrossing
+109 verbose already installed skipping gulp-rev-replace@~0.3.1 /Users/imnothardcore/projects/capecrossing
+110 verbose already installed skipping gulp-minify-html@~0.1.7 /Users/imnothardcore/projects/capecrossing
+111 verbose already installed skipping gulp-inject@~1.0.2 /Users/imnothardcore/projects/capecrossing
+112 verbose already installed skipping gulp-protractor@~0.0.11 /Users/imnothardcore/projects/capecrossing
+113 verbose already installed skipping gulp-karma@~0.0.4 /Users/imnothardcore/projects/capecrossing
+114 verbose already installed skipping gulp-sass@~1.1.0 /Users/imnothardcore/projects/capecrossing
+115 verbose already installed skipping gulp-angular-filesort@~1.0.4 /Users/imnothardcore/projects/capecrossing
+116 verbose request uri https://registry.npmjs.org/gulp-ng-annotate
+117 verbose request no auth needed
+118 info attempt registry request try #1 at 21:11:17
+119 verbose request id e6fa4886c9f2e452
+120 verbose etag "13J9NO6RBFSEXTY8H8IRFLBSB"
+121 http request GET https://registry.npmjs.org/gulp-ng-annotate
+122 verbose already installed skipping main-bower-files@~2.4.0 /Users/imnothardcore/projects/capecrossing
+123 verbose already installed skipping jshint-stylish@~1.0.0 /Users/imnothardcore/projects/capecrossing
+124 verbose already installed skipping wiredep@~2.2.0 /Users/imnothardcore/projects/capecrossing
+125 verbose already installed skipping karma-jasmine@~0.3.1 /Users/imnothardcore/projects/capecrossing
+126 verbose already installed skipping karma-phantomjs-launcher@~0.1.4 /Users/imnothardcore/projects/capecrossing
+127 verbose already installed skipping require-dir@~0.1.0 /Users/imnothardcore/projects/capecrossing
+128 verbose already installed skipping browser-sync@~1.7.1 /Users/imnothardcore/projects/capecrossing
+129 verbose already installed skipping http-proxy@~1.7.0 /Users/imnothardcore/projects/capecrossing
+130 verbose already installed skipping chalk@~0.5.1 /Users/imnothardcore/projects/capecrossing
+131 verbose already installed skipping protractor@~1.4.0 /Users/imnothardcore/projects/capecrossing
+132 verbose already installed skipping uglify-save-license@~0.4.1 /Users/imnothardcore/projects/capecrossing
+133 verbose already installed skipping gulp@~3.8.10 /Users/imnothardcore/projects/capecrossing
+134 verbose already installed skipping gulp-autoprefixer@~2.0.0 /Users/imnothardcore/projects/capecrossing
+135 verbose already installed skipping gulp-angular-templatecache@~1.4.2 /Users/imnothardcore/projects/capecrossing
+136 verbose already installed skipping del@~0.1.3 /Users/imnothardcore/projects/capecrossing
+137 verbose already installed skipping gulp-consolidate@~0.1.2 /Users/imnothardcore/projects/capecrossing
+138 verbose already installed skipping gulp-csso@~0.2.9 /Users/imnothardcore/projects/capecrossing
+139 verbose already installed skipping gulp-filter@~1.0.2 /Users/imnothardcore/projects/capecrossing
+140 verbose already installed skipping gulp-flatten@~0.0.4 /Users/imnothardcore/projects/capecrossing
+141 verbose already installed skipping gulp-jshint@~1.9.0 /Users/imnothardcore/projects/capecrossing
+142 verbose already installed skipping gulp-load-plugins@~0.7.1 /Users/imnothardcore/projects/capecrossing
+143 verbose already installed skipping gulp-size@~1.1.0 /Users/imnothardcore/projects/capecrossing
+144 http 200 https://registry.npmjs.org/gulp-ng-annotate
+145 silly get cb [ 200,
+145 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+145 silly get     etag: '"9CPEU53Z7Q4B0X7FITXSSVBHS"',
+145 silly get     'content-type': 'application/json',
+145 silly get     'cache-control': 'max-age=60',
+145 silly get     'content-length': '28987',
+145 silly get     'accept-ranges': 'bytes',
+145 silly get     date: 'Fri, 31 Jul 2015 01:11:15 GMT',
+145 silly get     via: '1.1 varnish',
+145 silly get     age: '0',
+145 silly get     connection: 'keep-alive',
+145 silly get     'x-served-by': 'cache-jfk1035-JFK',
+145 silly get     'x-cache': 'HIT',
+145 silly get     'x-cache-hits': '1',
+145 silly get     'x-timer': 'S1438305075.974767,VS0,VE19',
+145 silly get     vary: 'Accept' } ]
+146 verbose get saving gulp-ng-annotate to /Users/imnothardcore/.npm/registry.npmjs.org/gulp-ng-annotate/.cache.json
+147 silly addNameRange number 2 { name: 'gulp-ng-annotate',
+147 silly addNameRange   range: '>=1.0.2 <1.1.0',
+147 silly addNameRange   hasData: true }
+148 silly addNameRange versions [ 'gulp-ng-annotate',
+148 silly addNameRange   [ '0.1.0',
+148 silly addNameRange     '0.1.1',
+148 silly addNameRange     '0.2.0',
+148 silly addNameRange     '0.3.0',
+148 silly addNameRange     '0.3.1',
+148 silly addNameRange     '0.3.2',
+148 silly addNameRange     '0.3.3',
+148 silly addNameRange     '0.3.4',
+148 silly addNameRange     '0.3.5',
+148 silly addNameRange     '0.3.6',
+148 silly addNameRange     '0.4.0',
+148 silly addNameRange     '0.4.1',
+148 silly addNameRange     '0.4.2',
+148 silly addNameRange     '0.4.3',
+148 silly addNameRange     '0.4.4',
+148 silly addNameRange     '0.5.0',
+148 silly addNameRange     '0.5.1',
+148 silly addNameRange     '0.5.2',
+148 silly addNameRange     '0.5.3',
+148 silly addNameRange     '1.0.0',
+148 silly addNameRange     '1.1.0' ] ]
+149 verbose stack Error: No compatible version found: gulp-ng-annotate@'>=1.0.2 <1.1.0'
+149 verbose stack Valid install targets:
+149 verbose stack ["0.1.0","0.1.1","0.2.0","0.3.0","0.3.1","0.3.2","0.3.3","0.3.4","0.3.5","0.3.6","0.4.0","0.4.1","0.4.2","0.4.3","0.4.4","0.5.0","0.5.1","0.5.2","0.5.3","1.0.0","1.1.0"]
+149 verbose stack
+149 verbose stack     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:262:12)
+149 verbose stack     at next (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:241:17)
+149 verbose stack     at setData (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:218:5)
+149 verbose stack     at RES (/usr/local/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+149 verbose stack     at f (/usr/local/lib/node_modules/npm/node_modules/once/once.js:17:25)
+149 verbose stack     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:173:7)
+149 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+150 verbose cwd /Users/imnothardcore/projects/capecrossing/src
+151 error Darwin 14.4.0
+152 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+153 error node v0.12.3
+154 error npm  v2.9.1
+155 error code ETARGET
+156 error notarget No compatible version found: gulp-ng-annotate@'>=1.0.2 <1.1.0'
+156 error notarget Valid install targets:
+156 error notarget ["0.1.0","0.1.1","0.2.0","0.3.0","0.3.1","0.3.2","0.3.3","0.3.4","0.3.5","0.3.6","0.4.0","0.4.1","0.4.2","0.4.3","0.4.4","0.5.0","0.5.1","0.5.2","0.5.3","1.0.0","1.1.0"]
+156 error notarget
+156 error notarget This is most likely not a problem with npm itself.
+156 error notarget In most cases you or one of your dependencies are requesting
+156 error notarget a package version that doesn't exist.
+156 error notarget
+156 error notarget It was specified as a dependency of 'capecrossing'
+157 verbose exit [ 1, true ]
