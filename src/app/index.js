@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('capecrossing', ['ngAnimate', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router', 'ui.bootstrap'])
+angular.module("capecrossing", ['ngAnimate', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router', 'ui.bootstrap', 'duParallax'])
   .config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
       .state('home', {
