@@ -18,6 +18,39 @@ a {
 	margin: 0;
 	overflow: hidden;
 }
+.lifestyle{
+	.parallax {
+	  perspective: 1px;
+	  // margin-top: 90px;
+	  height: 100vh;
+	  overflow-x: hidden;
+	  overflow-y: auto;
+		.parallax__group {
+			position: relative;
+			height: 100vh;
+			transform-style: preserve-3d;
+			.section1{
+				font-size: 10vw;
+			}
+			.section1-text{
+
+			}
+			.parallax__layer {
+			  position: absolute;
+			  top: 0;
+			  right: 0;
+			  bottom: 0;
+			  left: 0;
+			}
+			.parallax__layer--base {
+			  transform: translateZ(0);
+			}
+			.parallax__layer--back {
+			  transform: translateZ(-1px) scale(2);
+			}
+		}
+	}
+}
 .navbar-header {
   display: inline;
     @media(max-width: 1050px){
