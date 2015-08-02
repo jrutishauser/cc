@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('capecrossing')
-  .controller('ContactCtrl', function ($scope) {
+angular.module("capecrossing")
+  .controller("ContactCtrl", function ($scope) {
     console.log('home');
   });

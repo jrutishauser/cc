@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('capecrossing')
-  .controller('MainCtrl', function ($scope) {
+angular.module("capecrossing")
+  .controller("MainCtrl", function ($scope) {
     $scope.myInterval = 2000;
     $scope.slides = [
       {
