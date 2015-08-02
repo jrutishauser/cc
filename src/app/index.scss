@@ -21,14 +21,14 @@ a {
 .lifestyle{
 	.block{
 		width: 100%;
-		overflow: 
+		position: relative;
 		p{
 			// position: absolute;
 			// color: white;
 			// font-size: 40px;
 			// top: 50%;
 			// position: relative;
-   //    z-index: 1;
+      z-index: 4;
    //    padding: 20px 20px;
 		}
 		img{
@@ -46,6 +46,32 @@ a {
 			@media(min-width: 1300px){
 				padding-top: 3%;
 			}
+		}
+	}
+	.section2{
+		text-align: center;
+		.overlay{
+			position: absolute;
+			top: 50%;
+			left: 0;
+			right: 0;
+			color: white;
+			font-size: 3.2em;
+			padding: 0 10%;
+			.top{
+				top: -63px;
+			}
+			.bottom{
+				top: 0;
+			}
+			img{
+				width: 58%;
+				max-width: 550px;
+				margin: 0;
+			}
+		}
+		img{
+			margin-top: 50px;
 		}
 	}
 }
