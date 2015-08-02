@@ -52,14 +52,14 @@ a {
 		text-align: center;
 		.overlay{
 			position: absolute;
-			top: 50%;
+			top: 40%;
 			left: 0;
 			right: 0;
 			color: white;
 			font-size: 3.2em;
 			padding: 0 10%;
 			.top{
-				top: -63px;
+				top: -23px;
 			}
 			.bottom{
 				top: 0;
@@ -68,6 +68,10 @@ a {
 				width: 58%;
 				max-width: 550px;
 				margin: 0;
+			}
+			p{
+				margin: 30px auto;
+				font-style: italic;
 			}
 		}
 		img{

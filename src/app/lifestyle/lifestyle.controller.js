@@ -2,5 +2,5 @@
 
 angular.module("capecrossing")
   .controller("LifestyleCtrl", ['$scope', 'parallaxHelper', function ($scope, parallaxHelper) {
-  	$scope.background = parallaxHelper.createAnimator(-0.3, 170, -250);
+  	$scope.background = parallaxHelper.createAnimator(-0.5, 180, -250);
   }]);
