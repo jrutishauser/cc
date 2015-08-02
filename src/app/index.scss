@@ -21,6 +21,7 @@ a {
 .lifestyle{
 	.block{
 		width: 100%;
+		overflow: 
 		p{
 			// position: absolute;
 			// color: white;
@@ -38,27 +39,13 @@ a {
 		}
 	}
 	.section1{
-		text-align: center;
-		.banner{
-			z-index: 3;
-			background-color: white;
-			position: absolute;
-		}
-		.section-title{
-			z-index: 3;
-			top: 18%;
-			margin: 0 auto;
-			left: 0;
-			right: 0;
-			color: #4A88A9;
-			width: 85%;
-			height: 95%;
-			font-size: 9vw;
-			position: absolute;
-			// @media
-		}
+		margin-top: 11%;
 		img{
 			z-index: 2;
+			padding-top: 6%;
+			@media(min-width: 1300px){
+				padding-top: 3%;
+			}
 		}
 	}
 }
@@ -79,13 +66,13 @@ a {
 }
 .navbar-nav {
  	display: inline;
-   	padding-right: 2em;
-    @media(max-width: 960px){
-		font-size: 0.8em;
-   	}
-    @media(max-width: 832px){
-	    font-size: 0.66em;
-   	}
+   	padding-right: 1.3em;
+  @media(max-width: 960px){
+	font-size: 0.8em;
+ 	}
+  @media(max-width: 832px){
+    font-size: 0.66em;
+ 	}
      // @media(max-width: 768px){
 	//   font-size: 0.66em;
 	// }
@@ -117,7 +104,7 @@ a {
       img {
         width: 100%;
         @media(max-width: 767px){
-          max-width: 78%;
+          max-width: 77%;
         }
       }
     }
