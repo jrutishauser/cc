@@ -2,5 +2,16 @@
 
 angular.module("capecrossing")
   .controller("ResidencesCtrl", function ($scope) {
-    console.log('home');
+    $scope.myInterval = 2000;
+    $scope.slides = [
+      {
+        image: 'assets/images/livingroom_web.jpg'
+      },
+      {
+        image: 'assets/images/bedroom.jpg'
+      },
+      {
+        image: 'assets/images/kitchen_web.jpg'
+      },
+    ];
   });
