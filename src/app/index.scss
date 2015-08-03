@@ -287,6 +287,51 @@ footer {
 		margin-top: 3em;	
 	}
 }
-
+.rentalheading {
+	text-align: center;
+	border: 2px solid black;
+	font-size: 3vw;
+	padding: 1vw 0;
+}
+.rentalheader {
+		width: 80%;
+		margin: 120px auto;
+		margin-bottom: 0;
+}
+.rentalcontent {
+	width: 80%;
+	margin: 0 auto;
+}
+.residencescontainer {
+	margin: 0 auto;
+	width: 80%;
+	.pricingbreak {
+		text-align: center;	
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+	img {
+		width: 100%;	
+	}
+	.tile {
+		cursor: pointer;
+		margin: 0;
+		padding: 0;
+		background-color: white;
+		h3 {
+			text-align: center;	
+			color: #4E87AC;
+		}
+	}
+	.tile:hover {
+		background-color: #4E87AC;
+		h3 {
+			color: white;	
+		}	
+	}
+	.active {
+		display: block;	
+	}
+}
 //injector
 //endinjector

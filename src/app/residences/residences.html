@@ -1,3 +1,95 @@
 <div class="container">
-  <h1>residences PAGE --- need top margin ^ fixed nav/head</h1>
+  <div class="carouselcontainer carousel-fade">
+    <carousel interval="myInterval">
+      <slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.image}}">
+        <div class="carousel-caption">
+          <!--<h4>Slide {{$index+1}}</h4>-->
+        </div>
+      </slide>
+    </carousel>
+    </div><!--carousel container-->
+	<section class='residencescontainer'>
+	<h3>Attention to Detail in Every Home</h3>
+	<p>
+	Now that you’ve seen some of the amenities offered in our waterfront community as a whole, take a look at what we have planned for home interior details. You'll find quality that’s sure to please, down to the smallest detail. And if you purchase during our pre-construction sale you’ll have a choice of different custom kitchen cabinets, and flooring throughout. If you’re interested in our rental program there are added benefits to explore.  Contact us or our sales agent to learn more.
+	</p>
+	<p>Also, a unique cutting-edge benefit at Cape Crossing is that we are Merritt Island’s first community to offer 100% fiber optic wireless internet.
+	</p>
+	<h3>Features</h3>
+	<section class='listsection' >
+			<div class='col-md-6'>
+		<p>QUALITY THROUGHOUT</p>
+		<ul>
+				<li>100% fiber optic wireless internet</li>
+				<li>Spacious balconies or patios in all homes</li>
+				<li>Electric storm shutters on balconies</li>
+				<li>Impact glass windows</li>
+				<li>9' Ceilings, vaulted on second floor (of townhomes)</li>
+				<li>Fiberglass entry doors</li>
+				<li>8 ft. solid core interior doors</li>
+				<li>Lever style door handles</li>
+				<li>8 ft. sliding glass door height</li>
+				<li>Ceramic or porcelain tile floors in foyer, hallway, kitchen, laundry room, living/dining room and baths</li>
+				<li>Sound dampening underlayment in all tiled areas</li>
+				<li>5 ¼" baseboard in select areas</li>
+				<li>Crown molding in select areas</li>
+				<li>Spacious closets throughout</li>
+				<li>Fire sprinklers and smoke detectors in each residence</li>
+				<li>Security system</li>
+				<li>Pre-wired for ceiling fans in living room, bedrooms and on balconies</li>
+				<li>Pre-wired for cable TV and 4-pair Category 6 telephone wiring</li>
+				<li>Central hot water system</li>
+		</ul>
+			</div><!-- left side lists-->
+			<div class='col-md-5 col-md-offset-1'>
+					<p>GOURMET KITCHEN</p>
+					<ul>
+							<li>Granite countertops</li>
+							<li>Single lever faucet with pull-out spray</li>
+							<li>Custom cabinets</li>
+							<li>Task lighting</li>
+							<li>Stainless steel appliance package</li>
+							<li>Pantry</li>
+					</ul>
+					<p>MASTER SUITE</p>
+					<ul>
+							<li>Direct balcony access</li>
+							<li>Air conditioned walk-in closets</li>
+							<li>Tiled shower with glass enclosure</li>
+							<li>Dual vanities with granite counter tops</li>
+							<li>36" vanity height</li>
+					</ul>
+					<p>Laundry</p>
+					<ul>
+							<li>Energy efficient washer and dryer</li>
+					</ul>
+			</div><!--right lists-->
+	</section>
+	<img src='assets/images/site_plan_map.jpg' alt='Resort Layout' class='img-responsive'>
+	<h3 class='pricingbreak'>RENTAL MANAGEMENT PROGRAM COMING JANUARY 2016</h3>
+	<div class='row'>
+		<div class='col-md-6 tile' data-ng-click='showtab(1)'>
+			<img src='assets/images/3unit_townhome.jpg' class='' alt='click to view townhomes'/>
+				<h3>TOWNHOME PRICING & AVAILABILITY</h3>	
+		</div><!--tile one-->
+		<div class='col-md-6 tile' data-ng-click='showtab(2)'>
+			<img src='assets/images/midrise_left.jpg' class='' alt='click to view midrise'/>
+				<h3>MIDRISE PRICING & AVAILABILITY</h3>	
+		</div><!--tile one-->
+	</div><!-- end of row for tiles-->
+	<section class='townhomepricing ng-hide' ng-class='{active: tab === 1}'>
+			<p>some text</p>
+			<p>some text</p>
+			<p>some text</p>
+			<p>some text</p>
+			<p>some text</p>
+	</section>
+	<section class='midrisepricing ng-hide' ng-class='{active: tab === 2}'>
+			<p>more text</p>
+			<p>more text</p>
+			<p>more text</p>
+			<p>more text</p>
+	</section>
+	</section><!--residencescontainer-->
 </div>
