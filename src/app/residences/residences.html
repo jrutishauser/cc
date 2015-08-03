@@ -67,5 +67,29 @@
 			</div><!--right lists-->
 	</section>
 	<img src='assets/images/site_plan_map.jpg' alt='Resort Layout' class='img-responsive'>
+	<h3 class='pricingbreak'>RENTAL MANAGEMENT PROGRAM COMING JANUARY 2016</h3>
+	<div class='row'>
+		<div class='col-md-6 tile' data-ng-click='showtab(1)'>
+			<img src='assets/images/3unit_townhome.jpg' class='' alt='click to view townhomes'/>
+				<h3>TOWNHOME PRICING & AVAILABILITY</h3>	
+		</div><!--tile one-->
+		<div class='col-md-6 tile' data-ng-click='showtab(2)'>
+			<img src='assets/images/midrise_left.jpg' class='' alt='click to view midrise'/>
+				<h3>MIDRISE PRICING & AVAILABILITY</h3>	
+		</div><!--tile one-->
+	</div><!-- end of row for tiles-->
+	<section class='townhomepricing ng-hide' ng-class='{active: tab === 1}'>
+			<p>some text</p>
+			<p>some text</p>
+			<p>some text</p>
+			<p>some text</p>
+			<p>some text</p>
+	</section>
+	<section class='midrisepricing ng-hide' ng-class='{active: tab === 2}'>
+			<p>more text</p>
+			<p>more text</p>
+			<p>more text</p>
+			<p>more text</p>
+	</section>
 	</section><!--residencescontainer-->
 </div>
