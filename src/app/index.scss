@@ -38,12 +38,29 @@ a {
 			margin: 0;
 		}
 		.accordion{
-			height: 547px;
-			width: 364px;
-			background-color: rgba(255, 0, 0, 0.5);
+			height: 100%;
+			width: 31.2%;
+			// background-color: rgba(255, 0, 0, 0.5);
 			position: absolute;
-			bottom: 0;
+			top: 30.5%;
 			left: 50%;
+			margin-left: -16%;
+			h3, p {
+				padding: 0 8px;
+			}
+			h3{
+				font-size: 2em;
+			}
+			p{
+				text-align: left;
+			}
+			.subtitle{
+				text-align: center;
+				font-size: 1.2em;
+			}
+			.sub2{
+				font-weight: 700;
+			}
 		}
 	}
 	.section1{
