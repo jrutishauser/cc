@@ -16,6 +16,7 @@ angular.module("capecrossing")
     ];
 	$scope.tab = 1;
 	$scope.showtab = function(input){
-		return $scope.tab === input;	
+		$scope.tab = input;	
+		return;
 	}
   });
