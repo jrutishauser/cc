@@ -69,27 +69,64 @@
 	<img src='assets/images/site_plan_map.jpg' alt='Resort Layout' class='img-responsive'>
 	<h3 class='pricingbreak'>RENTAL MANAGEMENT PROGRAM COMING JANUARY 2016</h3>
 	<div class='row'>
-		<div class='col-md-6 tile' data-ng-click='showtab(1)'>
+		<div class='col-md-6 tile' ng-click='showtab(1)'>
 			<img src='assets/images/3unit_townhome.jpg' class='' alt='click to view townhomes'/>
 				<h3>TOWNHOME PRICING & AVAILABILITY</h3>	
 		</div><!--tile one-->
-		<div class='col-md-6 tile' data-ng-click='showtab(2)'>
+		<div class='col-md-6 tile' ng-click='showtab(2)'>
 			<img src='assets/images/midrise_left.jpg' class='' alt='click to view midrise'/>
 				<h3>MIDRISE PRICING & AVAILABILITY</h3>	
 		</div><!--tile one-->
 	</div><!-- end of row for tiles-->
-	<section class='townhomepricing ng-hide' ng-class='{active: tab === 1}'>
+	<section class='townhomepricing' ng-show="tab === 1">
+	<accordion close-others="oneAtATime">
+	<accordion-group heading="BUILDING 1" is-open="status.isFirstOpen">
+				      This content is straight in the template.
 			<p>some text</p>
 			<p>some text</p>
 			<p>some text</p>
 			<p>some text</p>
 			<p>some text</p>
+	</accordion-group>
 	</section>
-	<section class='midrisepricing ng-hide' ng-class='{active: tab === 2}'>
+	<section class='midrisepricing' ng-show="tab === 2">
+	<accordion-group heading="midrise" is-open="status.isFirstOpen">
 			<p>more text</p>
 			<p>more text</p>
 			<p>more text</p>
 			<p>more text</p>
 	</section>
+	</accordian-group>
+	</accordian>
 	</section><!--residencescontainer-->
+	<footer>
+		<div class='row firstthird'>
+			<div class='col-md-2 col-md-offset-1'>
+			<img src='assets/images/tristar_logo.png' alt='TRISTAR Development Partners' class='img-responsive'>
+			<p>800–727–6845</p>
+			</div>
+			<div class='linkcontainer col-md-4'>
+				<div class='twolinks'>
+            	<a ui-sref="lifestyle">LIFESTYLE</a>
+				<a ui-sref="rental">RENTAL PROGRAM</a>
+				</div>
+				<div class='twolinks'>
+				<a ui-sref="location">LOCATION & ATTRACTIONS</a>
+				<a ui-sref="rental">THE TEAM</a>
+				</div>
+				<div class='twolinks'>
+				<a ui-sref="residences">RESIDENCES & PRICING</a> 
+            	<a ui-sref="contact">CONTACT</a>
+				</div>
+			</div>
+			<div class='col-md-3 col-md-offset-1'>
+					<span>© TRISTAR Development Partners 2014. All Rights Reserved.</span>
+			</div>
+		</div>
+		<div class='row moreinfo'>
+				<span class='col-md-8 col-md-offset-2'>
+					Canaveral Crossroads reserves the right to modify plans, specifications and features without prior notice. Pricing and availability are subject to change. Please see Sales Associate for current features listing. Some options may change or may not be available or may only be available at a substantial cost to buyer.
+				</span>
+		</div>
+	</footer>
 </div>
