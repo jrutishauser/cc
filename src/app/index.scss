@@ -21,15 +21,11 @@ a {
 .lifestyle{
 	.block{
 		width: 100%;
-		overflow: 
+		position: relative;
+		background-color: white;
+		text-align: center;
 		p{
-			// position: absolute;
-			// color: white;
-			// font-size: 40px;
-			// top: 50%;
-			// position: relative;
-   //    z-index: 1;
-   //    padding: 20px 20px;
+      z-index: 4;
 		}
 		img{
 			position: relative;
@@ -37,7 +33,11 @@ a {
       margin: -10% 0;
       width: 100%;
 		}
-			background-color: rgba(255, 0, 0, 0.5);
+		.waterfront{
+			width: 90%;
+			margin: 0;
+		}
+		
 	}
 	.section1{
 		margin-top: 11%;
@@ -49,6 +49,62 @@ a {
 			}
 		}
 	}
+	.section2{
+		text-align: center;
+		.overlay{
+			position: absolute;
+			top: 40%;
+			left: 0;
+			right: 0;
+			color: white;
+			font-size: 3.2em;
+			padding: 0 10%;
+			.top{
+				top: -23px;
+			}
+			.bottom{
+				top: 0;
+			}
+			img{
+				width: 58%;
+				max-width: 550px;
+				margin: 0;
+			}
+			p{
+				margin: 30px auto;
+				font-style: italic;
+			}
+		}
+		img{
+			margin-top: 50px;
+		}
+	}
+	.section3{
+		.row{
+			position: relative;
+			z-index: 3;
+			background-color: white;
+		}
+		.accordion{
+			h3, p {
+				padding: 0 8px;
+			}
+			h3{
+				font-size: 2em;
+			}
+			p{
+				text-align: left;
+			}
+			.subtitle{
+				text-align: center;
+				font-size: 1.2em;
+			}
+			.sub2{
+				font-weight: 700;
+			}
+		}
+	}	
+		
 }
 .navbar-header {
   display: inline;
@@ -288,51 +344,6 @@ footer {
 		margin-top: 3em;	
 	}
 }
-.rentalheading {
-	text-align: center;
-	border: 2px solid black;
-	font-size: 3vw;
-	padding: 1vw 0;
-}
-.rentalheader {
-		width: 80%;
-		margin: 120px auto;
-		margin-bottom: 0;
-}
-.rentalcontent {
-	width: 80%;
-	margin: 0 auto;
-}
-.residencescontainer {
-	margin: 0 auto;
-	width: 80%;
-	.pricingbreak {
-		text-align: center;	
-		margin-top: 2em;
-		margin-bottom: 2em;
-	}
-	img {
-		width: 100%;	
-	}
-	.tile {
-		cursor: pointer;
-		margin: 0;
-		padding: 0;
-		background-color: white;
-		h3 {
-			text-align: center;	
-			color: #4E87AC;
-		}
-	}
-	.tile:hover {
-		background-color: #4E87AC;
-		h3 {
-			color: white;	
-		}	
-	}
-	.active {
-		display: block;	
-	}
-}
+
 //injector
 //endinjector
