@@ -1,4 +1,4 @@
-body { 
+body {
 	margin: 0;
 	padding: 0;
 }
@@ -83,7 +83,7 @@ a {
       width: 80%;
     }
   img {
-    width: 100%;
+    width: 80%;
   }
 }
 .navbar-nav {
@@ -225,6 +225,7 @@ a {
 }
 .tilecontainer {
 	margin-top: 4vh;
+	margin-bottom: 8vh;
 	text-align: center;
 	.singletile {
 		display: inline-block;
@@ -266,49 +267,181 @@ a {
 	}
 }
 footer {
-	margin-top: 8vh;
 	padding-bottom: 4em;
     @media(max-width: 800px){
-		margin-top: 4vh;
+		//margin-top: 4vh;
     }
 	padding-top: 2em;
 	background-color: black;
 	span {
 		color: white;
-		font-size: 0.75em;	
+		font-size: 0.75em;
 	}
 	.firstthird {
 		p {
 			margin-top: 0.5em;
 			color: white;
-			font-size: 1.5em;	
-		}	
+			font-size: 1.5em;
+		}
 	}
 	.linkcontainer {
 		a {
-			color: white;	
+			color: white;
 		}
 		a:hover {
 			color: #4E87AC;
-			text-decoration: none;	
+			text-decoration: none;
 		}
 		.twolinks {
 			height: 2em;
 			position: relative;
 			a:nth-child(1){
 				position: absolute;
-				left: 0;	
-			}	
+				left: 0;
+			}
 			a:nth-child(2){
 				position: absolute;
-				right: 0;	
-			}	
-		}	
+				right: 0;
+			}
+		}
 	}
 	.moreinfo {
-		margin-top: 3em;	
+		margin-top: 3em;
 	}
 }
-
+.rentalheading {
+	text-align: center;
+	border: 2px solid black;
+	font-size: 3vw;
+	padding: 1vw 0;
+}
+.rentalheader {
+		width: 80%;
+		margin: 120px auto;
+		margin-bottom: 0;
+}
+.rentalcontent {
+	width: 80%;
+	margin: 0 auto;
+}
+.residencescontainer {
+	margin: 0 auto;
+	width: 80%;
+	.pricingbreak {
+		text-align: center;
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+	img {
+		width: 100%;
+	}
+	.tile {
+		cursor: pointer;
+		margin: 0;
+		padding: 0;
+		background-color: white;
+		h3 {
+			text-align: center;
+			color: #4E87AC;
+		}
+	}
+	.tile:hover {
+		background-color: #4E87AC;
+		h3 {
+			color: white;
+		}
+	}
+	.active {
+		display: block;
+	}
+}
+.townhomepricing {
+	margin-top: 3em;
+}
+.midrisepricing {
+	margin-top: 3em;
+}
+.locationcontent {
+		h1 {
+			color: white;
+			margin-top: 0;
+			margin-bottom: 1em;
+			text-align: center;
+		}
+	img {
+	}
+	.firstpar {
+		margin-top: 70px;
+		padding-top: 60px;
+		background-color: #4E87AC;
+		width: 100%;
+		p {
+			font-size: 1.25em;
+			color: white;
+		}
+	}
+	.firstparcontent {
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+.secondpara {
+	background: url('../assets/images/bwboat.png') no-repeat fixed center;
+	background-size: cover;
+	width: 100%;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	p {
+		font-color: black;
+		margin: 1em auto;
+		font-size: 1.5em;
+		font-weight: bold;
+		width: 70%;
+	}
+}
+.thirdpara {
+		p:last-child {
+			margin-bottom: 6em;
+		}
+	h3 {
+		margin-top: 2em;
+		font-size: 3em;
+		margin-bottom: 1em;
+	}
+	div {
+	}
+	img {
+		padding: 0;
+		margin: 0;
+	}
+}
+.fourthpara {
+	background: url('../assets/images/indian_river_1.jpg') no-repeat fixed center;
+	background-size: cover;
+	width: 100%;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	p {
+		font-color: black;
+		margin: 1em auto;
+		font-size: 1.5em;
+		font-weight: bold;
+		width: 70%;
+	}
+}
+.fifthpara {
+	background: url('../assets/images/indianriver_cocoa2.jpg') no-repeat fixed center;
+	background-size: cover;
+	width: 100%;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	p {
+		font-color: black;
+		margin: 1em auto;
+		font-size: 1.5em;
+		font-weight: bold;
+		width: 70%;
+	}
+}
 //injector
 //endinjector
