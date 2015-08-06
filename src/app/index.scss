@@ -20,6 +20,9 @@ a {
 }
 
 .lifestyle{
+	.no-padding{
+		padding: 0;
+	}
 	img{
 		width: 100%;
 	}
@@ -67,7 +70,24 @@ a {
 			}
 		}	
 	}
-	
+	.section3{
+		.accordion{
+			h3{
+				text-align: center;
+			}
+			.subtitle{
+					text-align: center;
+					font-size: 1.2em;
+				}
+				.sub2{
+					font-weight: 700;
+				}
+			.fa{
+				color: blue;
+				font-size: 2em;
+			}	
+		}	
+	}
 }
 	
 
