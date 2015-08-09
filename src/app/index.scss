@@ -53,8 +53,39 @@ a {
 				left: 0;
 				top: 0;
 				bottom: 0;
+				.flower{
+					// position: absolute
+					max-width: 160px;
+					position: absolute;
+					left: 0;
+			    right: 0;
+			    margin: 0 auto;
+			    @media(max-width: 550px){
+			    	max-width: 130px;
+			    }
+				}
+				.rotate{
+					transform: rotate(-13deg);
+					-moz-transform: rotate(-13deg);
+					-webkit-transform: rotate(-13deg);
+					-ms-transform: rotate(-13deg);
+				}
+				.high-z{
+					position: relative;
+					z-index: 2;
+				}
+				.flower-large{
+					max-width: 250px;
+				}
+				.margin-fix{
+		    	left: 50%;
+		    	margin-left: -94px;
+		    	@media(max-width: 600px){
+			    	margin-left: -75px;
+			    }
+			  }
 				.border{
-					width: 75%;
+					width: 65%;
 					max-width: 600px;
 					margin: 35px auto;
 				}
@@ -74,6 +105,10 @@ a {
 		}
 		.background3{
 			background-image: url(../assets/lifestyle/sunset.jpg);
+		}
+		.background4{
+			// background-position: bottom;
+			background-image: url(../assets/lifestyle/dolphin_playing.jpg);
 		}
 	}
 	.section3{
