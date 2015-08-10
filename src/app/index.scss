@@ -20,6 +20,13 @@ a {
 }
 
 .lifestyle{
+	.textsection {
+		padding-top: 4em;
+		padding-bottom: 4em;	
+	}
+	.listsection {
+		padding-bottom: 4em;	
+	}
 	.no-padding{
 		padding: 0;
 	}
@@ -121,7 +128,7 @@ a {
 				text-align: center;
 			}
 			.subtitle{
-					text-align: center;
+					text-align: left;
 					font-size: 1.2em;
 			}
 			.sub2{
