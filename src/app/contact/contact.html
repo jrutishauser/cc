@@ -1,3 +1,74 @@
 <div class="container">
-  <h1>contact PAGE --- need top margin ^ fixed nav/head</h1>
+	<section id='contactcontent' class='col-md-10 col-md-offset-1'>
+			<h1>Contact Us. We'd love to hear from you.</h1>
+			<div class='row'>
+				<section class='contactform col-md-4 col-md-offset-2'>
+					<form id="MySelector">
+					<span>Request for more information about Cape Crossing</span>
+					<input type="text" class='contactinputs' name="name" placeholder="Full Name">
+					<input type="email" class='contactinputs' name="emailaddress" placeholder="Email">
+					<input type="text" class='contactinputs' name="Address" placeholder="Street Address">
+					<input type="text" class='contactinputs' name="City" placeholder="City">
+					<input type="text" class='contactinputs' name="State" placeholder="State">
+					<input type="text" class='contactinputs' name="Zip Code" placeholder="Zip Code">
+					<input type="text" class='contactinputs' name="Home Phone" placeholder="Home Phone">
+					<input type="text" class='contactinputs' name="Cell Phone" placeholder="Cell Phone">
+					<p class='contactchecks'>Interested In:</p>
+					<input type="checkbox" class='contactchecks' name="Townhome" value="townhome"> Townhome<br>
+					<input type="checkbox" class='contactchecks' name="Midrise" value="midrise"> Midrise<br>
+					<input type="checkbox" class='contactchecks' name="Marina" value="marina"> Marina/Boat Slip<br>
+					<input type="checkbox" class='contactchecks' name="information" value="information"> Information<br>
+					<p class='contactchecks'>Comments/Questions:</p>
+					<textarea class='contactinputs' name='comments'></textarea>
+					<input type="submit" class='contactinputs submitbutton'>
+					</form>
+
+					<script type="application/javascript" src="http://src.fireform.org/fireform.min.js"></script>
+					<script type="application/javascript">
+          				options={
+		              		emailNotification:"jrutishauser@gmail.com",
+		              		emailConfirmationName:"inputexample",  //The email input we will send a confirmation to 
+		              		emailConfirmationFrom:"jrutishauser@gmail.com",  //Email appears as sent by this address.
+		              		emailConfirmationSubject:"Thanks for Signing Up",
+		              		emailConfirmationBodyHTML:"<p>You have been signed up!</p>",
+		              		emailConfirmationBodyText:"You have been signed up!"
+		            	}
+          				new Fireform('#MySelector', 'http://fireform.org/list/278/capecrossing2', options)
+		        	</script>
+				</section>
+				<section class='mapandinfo col-md-4'>
+				</section>
+			</div>	
+	</section>
 </div>
+	<footer>
+		<div class='row firstthird'>
+			<div class='col-md-2 col-md-offset-1'>
+			<img src='assets/images/tristar_logo.png' alt='TRISTAR Development Partners' class='img-responsive'>
+			<p>800–727–6845</p>
+			</div>
+			<div class='linkcontainer col-md-4'>
+				<div class='twolinks'>
+            	<a ui-sref="lifestyle">LIFESTYLE</a>
+				<a ui-sref="rental">RENTAL PROGRAM</a>
+				</div>
+				<div class='twolinks'>
+				<a ui-sref="location">LOCATION & ATTRACTIONS</a>
+				<a ui-sref="rental">THE TEAM</a>
+				</div>
+				<div class='twolinks'>
+				<a ui-sref="residences">RESIDENCES & PRICING</a> 
+            	<a ui-sref="contact">CONTACT</a>
+				</div>
+			</div>
+			<div class='col-md-3 col-md-offset-1'>
+					<span>© TRISTAR Development Partners 2014. All Rights Reserved.</span>
+			</div>
+		</div>
+		<div class='row moreinfo'>
+				<span class='col-md-8 col-md-offset-2'>
+					Canaveral Crossroads reserves the right to modify plans, specifications and features without prior notice. Pricing and availability are subject to change. Please see Sales Associate for current features listing. Some options may change or may not be available or may only be available at a substantial cost to buyer.
+				</span>
+		</div>
+	</footer>
+
