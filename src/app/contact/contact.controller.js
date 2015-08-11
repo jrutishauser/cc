@@ -2,5 +2,5 @@
 
 angular.module("capecrossing")
   .controller("ContactCtrl", function ($scope) {
-    console.log('home');
+    console.log('contact');
   });

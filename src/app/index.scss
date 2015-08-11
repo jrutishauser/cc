@@ -557,5 +557,41 @@ footer {
 		width: 70%;
 	}
 }
+#contactcontent {
+	padding-top: 120px;
+	padding-bottom: 10em;
+	h1 {
+		text-align: center;	
+	}
+	.contactform {
+		background-color: #4E87AC;
+		border: 2px solid blue;
+		padding: 2em;
+		p {
+			margin-top: 3em;	
+		}	
+		.contactchecks {
+			margin-left: 10%;
+		}
+	}
+	.mapandinfo {
+		border: 2px solid red;	
+	}
+	.contactinputs {
+		margin: 0 auto;
+		border: 0;
+		width: 80%;
+		display: block;
+		height: 2.5em;
+		margin-top: 1em;
+		padding: .2em;	
+	}
+	.contactinputs:last-child {
+		margin-top: 2em;	
+	}
+	.submitbutton {
+		background-color: green;	
+	}	
+}
 //injector
 //endinjector
