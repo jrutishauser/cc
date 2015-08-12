@@ -63,6 +63,9 @@ a {
 						@media(max-width: 375px){
 							font-size: 85%;
 						}
+						@media(max-width: 500px){
+							width: 50%;
+						}
 					}
 				}
 			}
