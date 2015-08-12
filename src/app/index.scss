@@ -247,7 +247,7 @@ a {
   }
   .nav {
     a:hover{
-      color: blue !important;
+      color: #4E87AC !important;
     }
   }
 }
@@ -381,6 +381,7 @@ a {
 	}
 }
 footer {
+	overflow: hidden;
 	padding-bottom: 4em;
     @media(max-width: 800px){
 		//margin-top: 4vh;
@@ -558,15 +559,17 @@ footer {
 	}
 }
 #contactcontent {
+	color: white;
+	font-size: 1.2em;
 	padding-top: 120px;
-	padding-bottom: 10em;
 	h1 {
-		text-align: center;	
+		text-align: center;
+		font-size: 1.75em;
 	}
 	.contactform {
 		background-color: #4E87AC;
-		border: 2px solid blue;
 		padding: 2em;
+		margin-bottom: 4em;
 		p {
 			margin-top: 3em;	
 		}	
@@ -575,12 +578,29 @@ footer {
 		}
 	}
 	.mapandinfo {
-		border: 2px solid red;	
+		.addlocation {
+			color: black;
+			font-size: 0.8em;
+		}
+		.realtylogo {
+			img {
+				margin-bottom: 1em;	
+			}
+			color: black;
+			font-size: 0.7em;
+			p {
+				margin-bottom: 0.2em;	
+			}	
+		}
 	}
 	.contactinputs {
+		color: black;
 		margin: 0 auto;
 		border: 0;
 		width: 80%;
+		@media (max-width: 500px){
+			width: 100%;
+		}
 		display: block;
 		height: 2.5em;
 		margin-top: 1em;
@@ -590,8 +610,19 @@ footer {
 		margin-top: 2em;	
 	}
 	.submitbutton {
-		background-color: green;	
+		background-color: #B9F9D9;	
 	}	
+	textarea.contactinputs {
+		height: 6em;	
+	}
+	.thegoogmap {
+		width: 100%;
+	}
+	.aboveform {
+		color: black;
+		text-align: center;	
+		margin-bottom: 4em;
+	}
 }
 //injector
 //endinjector
